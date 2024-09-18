@@ -5,20 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kriich</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="app.js"></script>
-</head>
-<body>
-    <nav class="navbar">
-        <ul class="navbar-menu">
-           <span class="logo">
-            <img src="img/logo.jpg" alt="" >
-          </span>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
-<section class="one">
+</head> 
+    <body>
+     <header>
+      <span class="logo">
+        <img src="img/logo.jpg" alt="" >
+      </span>
+      <nav>
+       
+     <ul class="nav-bar"> 
+        <input type="checkbox" id="check">
+          <span class="menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contacts">Contact</a></li>
+            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+         </span> 
+         <label for="check" class="open-menu">
+          <i class="fas fa-bars"></i>
+        </label>
+     </ul>
+     </nav>
+    </header>
+
+    
+<section id="Home" class="one">
+  <h1 class="landing">
+   <span class="welc"> Welcome to KRIICH</span> 
+   <span class="welc-2">CONSTRUCTION, where</span> <span class="welc-3">we craft</span> 
+    <div class="benefits">
+      <span>innoviative</span>
+      <span>sustainable</span>
+      <span>eco-friendly</span>
+      <span>functional</span>
+      <span>innoviative</span>
+    </div>
+   <span class="welc-4"> spaces that redefine</span> <span class="welc-5">architectural excellence.</span>
+</h1>
+  
+
+
   <div class="container"> 
    <div class="wrapper"> 
       <img src="img/wplace.jpg" alt="">
@@ -29,14 +57,13 @@
 
      <img src="" alt=""  >
  </div> 
-</div>  
+ </div>  
 </section>
-<span class="pows">
-  <h2>PROJECTS</h2>
-</span>  
-<section class="hidden">
-    
-       
+
+<section id="Projects" class="hidden">
+  <span class="pows">
+    <h2>PROJECTS</h2>
+  </span>  
      <div class="grid-container">
        <div class="grid-item">
            <div class="item-1"> 
@@ -49,8 +76,6 @@
         </div>  
      </div>  
           
-            
-        
         <div class="grid-container-2">
           <div class="grid-item-2">
             <img src="img/tower.jpg" alt="" class="pic-3">
@@ -86,7 +111,7 @@
         </div>
         <div class="grid-container">
           <div class="grid-item">
-            <img src="img/wp.jpg" alt="">
+            <img src="img/cst.jpg" alt="">
           </div>
         </div>
 
@@ -101,7 +126,8 @@
     </div>
 </section>
 
-      <section class="three">
+
+    <section id="Contacts" class="three">
         <div class="contact-container">
          <form action="https://formspree.io/f/mdknvyov" method="post" class="contact-left">
 
@@ -122,8 +148,9 @@
 
 
       </div>
-
-     </section>
+    
+</section>
+    
     
   </body>
 </html>
