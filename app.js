@@ -1,10 +1,12 @@
-const observer = new IntersectionObserver((enteries) => {
-  enteries.forEach((entry) => {
-    console.log(entry)
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('show');
-    } 
+      observer.unobserve(entry.target); 
+    }
   });
+}, {
+  rootMargin: '0px 0px -10% 0px' 
 });
 
 const hiddenElements = document.querySelectorAll('.hidden,.grid-container,.grid-container-2,.grid-container-4,.grid-container-3,.container,.contact-container');
@@ -36,5 +38,14 @@ window.addEventListener('scroll', () => {
     ticking = true;
   }
 });
+
+
+
+
+
+
+
+
+
 
 

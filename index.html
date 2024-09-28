@@ -11,31 +11,33 @@
     <script defer src="app.js"></script>
 </head> 
     <body>
-     <header>
-      
-
-      <nav>
-     <ul class="nav-bar"> 
-      <span class="logo">
-        <img src="img/logo2.jpeg" alt="" >
-      </span>
-        <input type="checkbox" id="check">
-          <span class="menu">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contacts">Contact</a></li>
-            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-         </span> 
-         <label for="check" class="open-menu">
-          <i class="fas fa-bars"></i>
-        </label>
-     </ul>
-     </nav>
-    </header>
-
+      <header>
+        <nav>
+          <ul class="nav-bar"> 
+           <span class="logo">
+             <img src="img/logo2.jpeg" alt="" >
+           </span>
+             <input type="checkbox" id="check">
+               <span class="menu">
+                 <li class="home"><a class="active" href="#">Home</a></li>
+                 <li class="project"><a href="#Projects">Projects</a></li>
+                 <li class="contact"><a href="#Contacts">Contact</a></li>
+                 <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+              </span> 
+              <label for="check" class="open-menu">
+               <i class="fas fa-bars"></i>
+             </label>
+          </ul>
+          </nav>
+      </header>
     
 <section id="Home" class="one">
-  <h1 class="landing">
+  <video autoplay muted loop>
+    <source src="video/hero.mp4" type="video/mp4">
+
+  </video>
+ <h1 class="landing">
+  
    <span class="welc"> Welcome to KRIICH</span> 
    <span class="welc-2">CONSTRUCTION, where</span> <span class="welc-3">we craft</span> 
     <div class="benefits">
@@ -46,20 +48,20 @@
       <span>innoviative</span>
     </div>
    <span class="welc-4"> spaces that redefine</span> <span class="welc-5">architectural excellence.</span>
+  
 </h1>
   
 
 
   <div class="container"> 
    <div class="wrapper"> 
-      <img src="img/wplace.jpg" alt="">
+      <img src="img/wplace.jpg" alt="" class="pic-w">
 
-     <img src="img/backview.jpg" alt="">
+     <img src="img/backview.jpg" alt="" class="pic-w1">
 
-     <img src="img/build.jpg" alt="">
+     <img src="img/castleback.jpg" alt="" class="pic-w2" >
 
-     <img src="" alt=""  >
- </div> 
+</div> 
  </div>  
 </section>
 
@@ -67,6 +69,7 @@
   <span class="pows">
     <h2>PROJECTS</h2>
   </span>  
+ <div class="all-wrapper"> 
      <div class="grid-container">
        <div class="grid-item">
            <div class="item-1"> 
@@ -108,7 +111,7 @@
         <div class="grid-container">
            <div class="grid-item-0">
               <img src="img/hotel.jpg" alt="">
-              <span class="luxury"><p>luxury apartment</p></span>
+              <span class="luxury"><p>luxury fully detached apartment</p></span>
               <span class="word">An exclusive luxury apartment </span> <span class="city">with breathtaking city views </span>
            </div>
 
@@ -116,19 +119,25 @@
         <div class="grid-container">
           <div class="grid-item-01">
             <img src="img/cst.jpg" alt="">
-           <span class="luxury"> luxury Estate </span> <span class="estate">An exquiste luxury estate with grand</span> <span class="lush">architecture and lush surroundings</span>
+           <span class="luxury"> luxury country home </span> <span class="estate">An exquiste luxury estate with grand</span> <span class="lush">architecture and lush surroundings</span>
           </div>
         </div>
 
         <div class="grid-container-4">
            <div class="grid-item-4">
-            <img src="img/palm.jpg" alt="" class="pic-3">
-            <img src="img/palm2.jpg" alt="" class="pic-3">
-            <img src="img/int.jpg" alt="" class="pic-3">
-            <img src="img/pool.jpg" alt="" class="pic-3">
+            <img src="img/onsite-1.webp" alt="" class="pic-3">
+            <img src="img/onsite-2.webp" alt="" class="pic-3">
+            <img src="img/onsite-3.webp" alt="" class="pic-3">
+            <img src="img/onsite-4.webp" alt="" class="pic-3">
            </div>
+          <div class="wrap">
+           <span class="luxury"> Site projects</span>
+           <span class="modern"> state of the art project using</span> <span class="materials">  sustainable materials and innovation</span>
+          </div>   
         </div>
+      </div>
     </div>
+  
 </section>
 
 
@@ -144,7 +153,7 @@
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
             <input type="number" name="phone number" placeholder="Your Phone NO." class="contact-inputs" required>
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-             <a href="/" class="bn5">Submit</a>
+            <button type="submit" class="bn5"> submit</button>
 
 
 
@@ -169,11 +178,14 @@
            <li><a href="#Projects">Projects</a></li>
            <li><a href="#Contacts">Contact Us</a></li>
          </ul>
+        
       </div>
+      <span class="phone">Tel: 08161214648</span>
+      <address>Address: <br>5, Boje Arthur Close, Igbeyinadun street, Remlek, Ajah</address>
     </div> 
          <div class="footer-bottom">
-          <p>Copyright &copy;2024; Designed by <span class="designer">Temitope</span></p>
-         </div>
+          <p>Copyright &copy;KRIICH CONSTRUCTION; Designed by <span class="designer">Temitope</span></p>
+        </div>
 
 
  </footer>
