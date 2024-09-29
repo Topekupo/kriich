@@ -79,14 +79,9 @@ nav{
 .logo{
    display: flex;
    position: relative;
-   top: o;
    margin-top: 20px;
    position: fixed;
    left: 0;
-  
-  
-    
-    
     
 }
 .logo img{
@@ -99,7 +94,7 @@ nav{
 section  {
     padding: 60px 20px;
     text-align: center;
-    background-color:;
+    
 }
 
 section h1 {
@@ -109,8 +104,6 @@ section h1 {
 .container{
     display: grid;
     grid-template-rows: auto;
-    place-items: ;
-    align-content: ;
     gap: 1rem;
     width: 95%;
     position: absolute;
@@ -421,7 +414,7 @@ h2{
      color: black;
      font-size: 40px;
      margin-bottom: 5px;
-     top: -9vh;
+     top: -4rem;
      position: absolute;
     
 
@@ -461,8 +454,8 @@ h2{
 
 .hidden, .grid-container, .grid-container-2, .grid-container-3, .container, .contact-container, .grid-container-4 {
     opacity: 0;
-    transition: all 0.7s ease;
-    filter: blur(5px);
+    transition: all 0.5s ease;
+    filter: blur(3px);
     transform: translateX(-100%);
     will-change: opacity, filter, transform;
 }
@@ -856,7 +849,7 @@ address{
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 60vh;
+        height: 30rem;
         position: fixed;
         top: 0;
         right: -100%;
@@ -888,7 +881,7 @@ address{
     .logo img{
         height: 100px;
         width: 150px;
-        margin-top: 25px;
+        margin-top: 65px;
       
        
     }
@@ -896,7 +889,7 @@ address{
         transition: 0.5s ease transform;
          width: 100%;
          background-color: white;
-         height: 13.4vh;
+         height: 7rem;
          top: 0;
          position: absolute;
          z-index: 100;
@@ -923,7 +916,7 @@ address{
         display: block;
         position: fixed;
         right: 10px;
-        top: 0;
+        top: 15px;
         z-index: 6000;
         cursor: pointer;
         font-size: 35px;
@@ -1000,7 +993,7 @@ video{
     nav{
         transition: 0.5s ease transform;
          width: 100%;
-         height: 16.4vh;
+         height: 7rem;
          top: 0;
          position: absolute;
          z-index: 100;
@@ -1061,7 +1054,7 @@ video{
       }
       .menu li a:hover{
         background-color: rgb(218, 209, 209);
-        transition: background-color .7s ease-in-out;
+        transition: background-color .3s ease-in-out;
       }
       .home{
         margin-right: 20px;
@@ -1080,6 +1073,9 @@ video{
         margin-top: 20px;
       }
 
+      .item-2{
+        display: none;
+     }
       
 
       .logo{
@@ -1092,7 +1088,7 @@ video{
          
      }
      .logo img{
-         height: 100px;
+         height: 110px;
          width: 140px;
        
         
@@ -1197,7 +1193,7 @@ video{
     }
     .one{
         position: relative;
-        height: 110vh;
+        height: 52rem;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1245,7 +1241,7 @@ video{
  .logo img{
     width: 100px;
     height: 90px;
-    top: -45px;
+    top: -90px;
     position: relative;
  }
   nav{
@@ -1296,7 +1292,7 @@ video{
     nav{
         transition: 0.5s ease transform;
          width: 100%;
-         height: 12.7vh;
+         height: 6rem;
          top: 0;
          position: relative;
          z-index: 100;
@@ -1317,7 +1313,9 @@ video{
         z-index: -1;  
         
     }
-     
+     .item-2{
+        display: none;
+     }
      
        .menu li a{
         display: flex;
@@ -1340,6 +1338,8 @@ video{
         left: 200px;
        
       }
+       
+     
      
       .menu li a:hover{
         background-color: white;
@@ -1399,7 +1399,7 @@ footer{
    height: 48rem;
 }
   .logo img{
-    height: 80px;
+    height: 90px;
     width: 150px;
   }
    .logo{
@@ -1412,7 +1412,7 @@ footer{
   }
  .one{
     position: relative;
-    height: 110vh;
+    height: 80rem;
  }
  .hidden{
     position: relative;
