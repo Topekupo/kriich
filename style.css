@@ -1026,7 +1026,6 @@ address{
 .about-container{
     position: relative;
     text-align: center;
-    border: 3px solid wheat;
     width: 100%;
     height: 22.5rem;
    color: white;
@@ -1311,7 +1310,6 @@ video{
        .about-container{
         position: relative;
         top: 12rem;
-        border: 3px solid wheat;
         width: 100%;
         height: 20rem;
          text-align: center;
@@ -1414,7 +1412,6 @@ video{
 .about-container{
     position: relative;
     text-align: center;
-    border: 3px solid wheat;
     width: 100%;
     height: 24rem;
    color: white;
@@ -1641,7 +1638,6 @@ footer{
     text-align: center;
     position: relative;
     top: 12rem;
-    border: 3px solid wheat;
     width: 100%;
     height: 22rem;
     color: white;
